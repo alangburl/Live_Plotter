@@ -164,8 +164,7 @@ class Interface(QMainWindow):
                             data[j].append(eval('{}({})'.format(d_type[j],value)))
                         else:
                             data[j].append(value)
-                    except Exception as e:
-                        print('here')
+                    except Exception as e: 
                         print(e)  
         return data
     
